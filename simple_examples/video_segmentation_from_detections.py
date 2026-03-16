@@ -13,6 +13,7 @@ except ModuleNotFoundError:
         sys.path.insert(0, parent_folder)
     else:
         raise ImportError("Can't find path to muggled_sam folder!")
+import os
 import json
 from time import perf_counter
 from collections import defaultdict
